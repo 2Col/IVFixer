@@ -294,7 +294,7 @@ WriteINIStr "$INSTDIR\plugins\GTAIV.EFLC.FusionFix.ini" BudgetedIV VehicleBudget
 SectionEnd
 
 Section "Ash_735's Higher Resolution Miscellaneous Pack" mp
-NScurl::http GET "https://files.gamebanana.com/mods/ash_hires_misc11.zip" "$EXEDIR\Resources\.temp\miscpack.zip" /CANCEL /RESUME /END
+NScurl::http GET "https://files.gamebanana.com/mods/ash_hires_misc20_rc2.zip" "$EXEDIR\Resources\.temp\miscpack.zip" /CANCEL /RESUME /END
 nsExec::Exec '"$EXEDIR\Resources\External\7za.exe" x "$EXEDIR\Resources\.temp\miscpack.zip" -y'
 SectionEnd
 
